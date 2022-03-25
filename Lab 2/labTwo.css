@@ -1,0 +1,68 @@
+h1{
+    color: blue;
+    text-decoration: underline;
+    background-color: gold;
+}
+
+h2{
+    font-size: 25px;
+    color: purple;
+    font-weight: bold;
+    border: solid orange;
+
+}
+
+section#one{
+    width: 50%;
+    height: 200px;
+    background-color: grey;
+    border: solid black;
+    color: white;
+}
+
+section#two{
+    background-color: black;
+    border: solid lightgreen;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+p.classOne{
+    color: lightgreen;
+}
+
+p#paraTwo{
+    background-color: beige;
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:link#click{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited#click{
+    color: black;
+}
+
+a:hover#click{
+    color: purple;
+}
+
+a:active#click{
+    color: hotpink;
+}
+
+
+
+
+
+
+
