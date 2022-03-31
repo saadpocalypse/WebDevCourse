@@ -9,5 +9,6 @@ In lab two, we were given an HTML file with instructions of the CSS to be applie
 
 ## Lab Three
 In lab three, we were introduced to forms. It comprised of 3 tasks.
-#Task 1
+
+##Task 1
 Create a simple form in HTML.
