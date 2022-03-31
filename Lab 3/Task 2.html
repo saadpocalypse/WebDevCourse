@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <link href = "Task 2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<form>
+    <fieldset>
+        <legend>Application form
+        </legend>
+
+Full name <label>
+    <input type = "text">
+</label>
+<br>
+
+    <br>
+    Gender
+    <input type = "radio" value = "male" name = "maleInput"> Male
+    <input type = "radio" value = "male" name = "maleInput"> Female
+<br>
+    Nationality
+    <select name = "nationality">
+        <option value = "sc">--Select--</option>
+        <option value = "pk">Pakistani</option>
+        <option value = "eu">European</option>
+        <option value = "am">American</option>
+    </select>
+    <br>
+        <table>
+            <tr>
+                <td>Skills</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type = "checkbox" value = "aspVal" name = "aspName">Asp.Net
+                                <input type = "checkbox" value = "aspVal" name = "aspName">jQuery
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <input type = "checkbox" value = "aspVal" name = "aspName">MVC
+                                <input type = "checkbox" value = "aspVal" name = "aspName">SQL Server
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    <br>
+        <table>
+            <tr>
+                <td>Posts applying for</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type = "radio" value = "aspVal" name = "aspName">Trainee
+                                <input type = "radio" value = "aspVal" name = "aspName">Software Engineer
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type = "radio" value = "aspVal" name = "aspName">Team Leader
+                                <input type = "radio" value = "aspVal" name = "aspName">Project Manager
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+    Upload Resume: <input type = "file" name = "resume">
+    <br>
+        <br>
+
+    Paste your resume <textarea rows= 5 cols = 30> </textarea>
+    <br>
+    <input type = "checkbox" value = "emailVal" name = "emailName">Notify me the
+    status via Email
+    <br>
+    <input type = "radio" value = "termsVal" name = "termsName">I agree to terms
+    & conditions
+    <br>
+        <div class = "finalButtons">
+    <input type = "submit" value = "Submit">
+    <input type = "reset" value = "Reset">
+        </div>
+
+
+    </fieldset>
+</form>
+
+
+</body>
+</html>

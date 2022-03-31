@@ -1,0 +1,22 @@
+html, body {
+    height:100%;
+    width:100%;
+    margin:0;
+    font-family: "Times New Roman", serif;
+}
+
+body {
+    background-color: #1bb1ec;
+    display:flex;
+}
+form {
+    background-color: #dde1e7;
+    margin:auto;
+}
+
+.finalButtons{
+    text-align: center;
+}
+
+
+
