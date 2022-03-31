@@ -13,5 +13,6 @@ In lab three, we were introduced to forms. It comprised of 3 tasks.
 Create a simple form in HTML.
 ### Task 2
 Style a simple form with CSS.
-
+### Task 3
+Replicate the home page of Google.
 
