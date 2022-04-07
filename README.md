@@ -13,5 +13,11 @@ In lab 3, we were introduced to forms. It comprised of 3 tasks.
 * Style a simple form with CSS.
 * Replicate the home page of Google.
 
-## Lab Four
+## Lab 4
+In lab 4, we were supposed to created three pages.
+* Home page of an article-based website
+* Article view page
+* Error 404 page
+
+The pages consisted of styling that was to be done through Bootstrap.
 
