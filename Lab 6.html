@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 5</title>
+</head>
+<body>
+<h1>TASK 1</h1>
+ <form id="form1">
+        <label>a</label>
+        <input type="text" id="aOne" value="6"><br>
+        <label>b</label>
+        <input type="text" id="bOne" value="5"><br>
+    </form>
+    <button class="btn btn-success" type="submit" id="form2" onclick="calc()">
+    Submit
+    </button>
+    <h3 id="sum" value="0">Sum:</h3>
+    <h3 id="sub">Subtraction;</h3>
+    <h3 id="mult">Multiplication:</h3>
+    <h3 id="div">Division:</h3>
+<hr>
+<h1>TASK 2</h1>
+<button type="button" onclick="promptUser()">Click here to show confirm alert.</button>
+<hr>
+<h1>TASK 3</h1>
+<form id="formOne">
+        <label>a.</label>
+        <input id="a" type="number"><br>
+        <label>b.</label>
+        <input id="b" type="number"><br>
+        <label>c.</label>
+        <input id="c" type="number"><br>
+        <label>d.</label>
+        <input id="d" type="number"><br>
+        <label>e.</label>
+    <input id="e" type="number"><br>
+    </form>
+    <button type="submit" onclick="submit()" id="formTwo">
+        Submit
+    </button>
+    <br>
+    <h3 id="min" >Min:</h3>
+    <h3 id="max">Max:</h3>
+    <h3 id="rand">Random:</h3>
+<hr>
+<h1>TASK 4</h1>
+</body>
+</html>
+
+<script>
+function promptUser(){
+    alert("JS Alert")
+}
+document.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. ")
+var stringToBold = 'Lorem Ipsum has been the industry\'s standard\n' +
+    '        dummy text ever since the 1500s, when an unknown printer took a\n' +
+    '        galley of type and scrambled it to make a type specimen book.';
+document.write(stringToBold.bold().big());
+document.write(" It has survived not only five\n" +
+    "        centuries, but also the leap into electronic typesetting, remaining\n" +
+    "        essentially ")
+var stringTwo = "UNCHANGED."
+document.write(stringTwo.bold());
+document.write(" It was popularised\n" +
+    "        in the ")
+document.write("1960s ".bold())
+document.write("with the release of")
+document.write(" LETRASER ".bold())
+document.write("sheets containing Lorem Ipsum\n" +
+    "        passages, and ")
+
+document.write("more recently with desktop".strike())
+document.write(" publishing software like Aldus")
+document.write(" Pagemaker ".link("#"))
+document.write("including versions of")
+document.write(" Lorem Ipsum.".italics().big())
+
+  function calc(){
+            var a = document.getElementById("aOne").value;
+            var b = document.getElementById("bOne").value;
+
+            var sumE = document.getElementById("sum");
+            var subE = document.getElementById("sub");
+            var multE = document.getElementById("mult");
+            var divideE = document.getElementById("div");
+            var sum = parseInt(a)+parseInt(b);
+            sumE.innerHTML = `Sum: ${sum}`;
+            subE.innerHTML = `Sub: ${a - b}`;
+            multE.innerHTML = `Mult: ${a * b}`;
+            divideE.innerHTML = `Divide: ${a / b}`;
+            console.log(a);
+        }
+
+        function submit() {
+            var a = document.getElementById("a").value;
+            var b = document.getElementById("b").value;
+            var c = document.getElementById("c").value;
+            var d = document.getElementById("d").value;
+            var e = document.getElementById("e").value;
+            console.log(e);
+
+            var minE = document.getElementById("min");
+            var maxE = document.getElementById("max");
+            var randomE = document.getElementById("rand")
+            minE.innerHTML = `Min: ${Math.min(a,b,c,d,e)}`
+            maxE.innerHTML= `Max: ${Math.max(a,b,c,d,e)}`
+
+            const list = [a,b,c,d,e];
+            console.log(Math.floor(Math.random()*5));
+            randomE.innerHTML = `Random: ${list[Math.floor(Math.random()*5)]}`
+        }
+</script>
