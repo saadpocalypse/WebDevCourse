@@ -21,3 +21,7 @@ In lab 4, we were supposed to created three pages.
 
 The pages consisted of styling that was to be done through Bootstrap.
 
+## Lab 5 was omitted
+
+## In Lab 6
+In lab 6, we peformed basic JavaScript tasks
