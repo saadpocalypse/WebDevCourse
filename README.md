@@ -24,4 +24,6 @@ The pages consisted of styling that was to be done through Bootstrap.
 ## Lab 5 was omitted
 
 ## In Lab 6
-In lab 6, we peformed basic JavaScript tasks
+In lab 6, we peformed basic JavaScript tasks. The four tasks consisted of:
+1. Making a simple calculator.
+2. Using JS to format strings.
