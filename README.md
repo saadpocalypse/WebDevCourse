@@ -25,7 +25,7 @@ The pages consisted of styling that was to be done through Bootstrap.
 
 ## In Lab 6
 In lab 6, we peformed basic JavaScript tasks. The four tasks consisted of:
-1. Making a simple calculator.
+1. Making a simple calculator. The inputs are taken from the user.
 2. Creating a button that generates a JS prompt message.
 3. Creating a min, max and randomizer function.
 4. Using JS to format strings.
