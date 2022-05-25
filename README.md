@@ -1,6 +1,9 @@
 # WebDevCourse
 This repository consists of all the labs for my Web-App Development Course (CSCS 342).
 
+<hr>
+
+
 ## Lab 1
 Lab 1 consisted of us creating the BBC website's landing page in HTML only.
 
